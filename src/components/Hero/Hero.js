@@ -18,7 +18,7 @@ const Hero = (props) => {
         </SectionTitle>
         <br/>
         <SectionText>
-          Passionate Artificial Intelligence and Data Science Engineer with keen interest in Machine Learning and Web Development. Looking forward to learn new skills and work efficiently in team environment 👋🏻
+          Passionate Artificial Intelligence and Data Science Engineer with keen interest in Web Development and Machine Learning.Looking forward to learn new skills
         </SectionText>
 
         <Button onClick={handleDownload}>Resume</Button>

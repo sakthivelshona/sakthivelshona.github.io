@@ -7,7 +7,8 @@ const data = [
   { number: 'Winner', text: "Infocruise'22 Paper Presentation", },
   { number: 'Winner', text: 'Kho-Kho Intercollege Sports Meet' },
   { number: 'Runner', text: 'Talentum Taerid - Wordsmith'},
-  { number: 'Finalist', text: 'Brics Skills Competition - AR/VR', },
+  { number: 'Bronze Nedal', text: 'BRICS 2023 - AI Computer Visionn Application', },
+  { number: 'Finalist', text: 'Brics Skills Competition 2022- AR/VR', },
 ];
 
 const Acomplishments = () => (
