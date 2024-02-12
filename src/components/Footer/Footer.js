@@ -18,13 +18,27 @@ const Footer = () => {
       <LinkItem href='mailto:shona.ad21@bitsathy.ac.in'>shona.ad21@bitsathy.ac.in</LinkItem>
       </LinkColumn>
 
+      <LinkColumn> 
+      <LinkTitle>Medium</LinkTitle>
+      <LinkItem href='https://medium.com/@shona446'>shona446</LinkItem>
+      </LinkColumn>
+
+      <LinkColumn> 
+      <LinkTitle>CodeChef</LinkTitle>
+      <LinkItem href='https://www.codechef.com/users/shona_446'>shona_446</LinkItem>
+      </LinkColumn>
+
+    
   
 </LinkList>
 
 <SocialIconsContainer>
+
+
 <CompanyContainer>
 <Slogan>Learn - Try - Execute - Repeat</Slogan>
 </CompanyContainer>
+
 <SocialContainer>
 <SocialIcons href='https://github.com/sakthivelshona'>
 <AiFillGithub size="3rem"></AiFillGithub>

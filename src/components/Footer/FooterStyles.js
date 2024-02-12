@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
   max-width: 1040px;
-  padding: 2rem 48px 40px;
+  padding: 1rem 48px 80px;
   margin: 1rem auto;
   box-sizing: content-box;
 
@@ -22,6 +22,7 @@ export const LinkItem = styled.a`
 	transition: .3s ease;
 	position: relative;
 	left: 0;
+	
 
 	&:hover {
 		color: #fff;
@@ -47,6 +48,8 @@ max-width: 1040px;
 display: flex;
 justify-content: space-between;
 
+
+
 @media ${props => props.theme.breakpoints.md}{
   display: flex;
   justify-content: space-between;
@@ -60,15 +63,18 @@ justify-content: space-between;
 `
 
 export const CompanyContainer = styled.div`
-  display: flex;
+  	display: flex;
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
+	text-align : center;
 	
 
 	@media ${props => props.theme.breakpoints.md}{
 		flex-direction: column;
 		align-items: baseline;
+		text-align : center;
+
 	}
 
 	@media ${props => props.theme.breakpoints.sm}{
@@ -86,6 +92,7 @@ export const Slogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 30px;
+	text-align:center;
 	padding: 1rem;
 	
 
@@ -115,11 +122,11 @@ export const SocialContainer = styled.div`
 
 
 export const LinkList = styled.ul`
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: grid;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  	display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
-	gap: 40px;
-  padding: 40px 0 28px;
+	gap: 150px;
+  	padding: 40px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;

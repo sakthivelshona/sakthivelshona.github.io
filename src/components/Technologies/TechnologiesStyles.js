@@ -34,6 +34,7 @@ export const List = styled.ul`
   gap: 40px;
   margin: 3rem 0;
   
+  
   @media ${props => props.theme.breakpoints.lg}{
     margin: 64px 0;
   }
@@ -53,6 +54,7 @@ export const List = styled.ul`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
+  
 
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
@@ -67,6 +69,7 @@ export const ListTitle = styled.h4`
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 8px;
+
 
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
