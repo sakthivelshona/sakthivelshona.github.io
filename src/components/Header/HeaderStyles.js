@@ -18,6 +18,7 @@ export const Container = styled.div`
 
 export const Span=styled.span`
 font-size:3rem;
+margin-left:5px;
 
 `;
 
@@ -31,7 +32,7 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 2 / 5;
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {

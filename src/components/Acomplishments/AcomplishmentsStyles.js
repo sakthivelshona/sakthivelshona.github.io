@@ -33,7 +33,7 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 144px;
+    height: 300px;
     padding: 16px;
   }
 
@@ -80,12 +80,12 @@ export const BoxText = styled.p`
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 20px;
-    line-height: 20px;
+    line-height: 40px;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 20px;
-    line-height: 14px;
+    line-height: 20px;
   }
 `
 
